@@ -1,0 +1,80 @@
+
+*{
+padding:0;
+margin: 0;
+text-decoration: none;
+list-style: none;
+box-sizing: border-box;
+}
+body{
+background-image: url(bg.jpg);
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: 100% 100%;
+}
+nav{
+background:transparent;
+height:80px;
+width:100%;
+}
+label.logo{
+font-size: 35px;
+padding:0px 100px;
+font-weight: bold;
+
+}
+nav ul{
+float:right;
+margin-right: 20px;
+}
+nav ul li{
+display: inline-block;
+line-height: 80px;
+margin: 0 5px
+}
+nav ul li a{
+color: white;
+font-size: 17px;
+text-transform: uppercase;
+}
+.item{
+color: white;
+font-size: 16px;
+}
+.item:hover{
+text-decoration: underline;
+}
+.form-box{
+width: 400px;
+margin: 12% auto;
+padding:2px o;
+color:rgba(0,0,0,0.8);
+background: #fff;
+box-shadow: 0 0 20px 20px #fff;
+}
+.input-box{
+margin: 31px auto;
+width:80%;
+border-bottom: 1px solid rgba(0, 0, 0, 0.504);
+padding-top: 0px;
+padding-bottom: 0px;
+}
+.sbt-btn{
+margin: 40px auto 20px;
+width:80%;
+display:block;
+outline:none;
+padding: 10px 0;
+border:1px solid rgba(0,0,0,0.8);
+cursor: pointer;
+background: transparent;
+color: rgba(0,0,0,0.5);
+font-size: 16px;
+}
+.sbt-btn:hover{
+color:blue
+}
+.sbt-btn:active{
+background-color: blue;
+color: #fff;
+}
